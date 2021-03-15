@@ -54,6 +54,10 @@ class RenderFlags(object):
     FLAT = 4096
     """Render the color buffer flat, with no lighting computations."""
     SEG = 8192
+    """Color ONLY PBR Render."""
+    COLOR_ONLY = 16384
+    """No resize OSX."""
+    NO_RESIZE_OSX = 32768
 
 
 class TextAlign:
