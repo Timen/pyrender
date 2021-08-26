@@ -1,3 +1,4 @@
+wheel
 freetype-py
 imageio
 networkx
